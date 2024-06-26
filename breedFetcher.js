@@ -10,7 +10,7 @@ if (!breedName) {
   process.exit(1);
 }
 
-// APIR endpoint for TheCatsAPI
+// API endpoint for TheCatsAPI
 const url = `https://api.thecatapi.com/v1/breeds/search?q=${breedName}`;
 
 // fetch the data for the breed
